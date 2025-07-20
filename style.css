@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62%;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1;
+    color: #555;
+    font-weight: 400;
+}
+.section-hero{
+    background-color: #e5d8c2;
+    padding: 9.6rem 0;
+}
+.hero{
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: violet;
+     */
+     align-items: center;
+     gap: 9.6rem;
+}
+.hero-img-box img{
+    width: 100%;
+
+}
+.heading1{
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color:#333;
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+}
+.hero-description{
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 4.8rem;
+}
+.btn:link , .btn:visited{
+    background-color: #ec830a;
+  
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    border-radius: 9px;
+    text-decoration: none;
+    transition:   background-color 0.4s;
+}
+.btn--full:link
+ , .btn--full:visited{
+    color: white;
+
+}
+.btn--full:hover
+ , .btn--full:active{
+    background-color: #c26a06;
+
+
+}
+.btn--outline:link , 
+.btn--outline:visited{
+    background-color: white;
+    color: #333;
+
+}
+.btn--outline:hover , 
+.btn--outline:active{
+    background-color: #e5d8c2;
+    color: white;
+    border: 3px solid #fff;
+
+}
+.margin-right{
+    margin-right: 1.6rem;
+}
+
